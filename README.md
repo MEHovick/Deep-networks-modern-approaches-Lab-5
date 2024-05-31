@@ -1,9 +1,9 @@
 # Deep-networks-modern-approaches-Lab-5
 
-В работе проверялась отрабатывание resnet50 с тем же оптимизатором, шедулером, датасетом и функцией обучения.
+В работе проверялась замены квалификационного слоя на слой ResNet с подгруженными весами.
 
-Новая точность составила 95.60 % в сравнении с предыдущей 90.70 %, при это обучение resNet50 длилось 5 эпох (эпохи длились дольше раза в 3):
-![image](https://github.com/MEHovick/Deep-networks-modern-approaches-Lab-5/assets/52539883/7d6b54a2-c513-4b9a-b91b-cefa19398ad3)
+Новая точность составила 96.40 % в сравнении с предыдущей 90.70 %, при это обучение resNet50 длилось 10 эпох (эпохи длились дольше раза в 3):
+![image](https://github.com/MEHovick/Deep-networks-modern-approaches-Lab-5/assets/52539883/bd74d429-be28-43ff-83e0-eab8e707def8)
 
 Помимо точности были посчитаны и другие метрики:
 
@@ -13,4 +13,5 @@ Recall: 0.96
 
 Confusion Matrix:
 
-![image](https://github.com/MEHovick/Deep-networks-modern-approaches-Lab-5/assets/52539883/83e0814c-f9ca-48d3-aef6-3d23d91fe86d)
+![image](https://github.com/MEHovick/Deep-networks-modern-approaches-Lab-5/assets/52539883/47532dd6-aa70-4d65-af4e-0687f0e7800f)
+
